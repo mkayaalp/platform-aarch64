@@ -19,8 +19,8 @@
     {
       "toolchain-gccaarch64noneelf": [
         {
-          "url": "https://github.com/mkayaalp/toolchain-aarch64/releases/download/v0.1/toolchain-gccaarch64noneelf-darwin_x86_64-0.1.20171128.tar.xz",
-          "sha1": "8ed204102749411d120925141c31109cfb7625f1",
+          "url": "https://github.com/mkayaalp/toolchain-aarch64/releases/download/v0.1/toolchain-gccaarch64noneelf-darwin_x86_64-0.1.20171128.tar.gz",
+          "sha1": "ea0ddfe8a45527d4d0459daffc4e014b584cc239",
           "version": "0.1.20171128",
           "system": ["darwin_x86_64"]
         }
