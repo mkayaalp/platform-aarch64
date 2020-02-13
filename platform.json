@@ -1,0 +1,40 @@
+{
+  "name": "aarch64",
+  "title": "AArch64",
+  "description": "Bare metal AArch64 development platform",
+  "url": "https://github.com/mkayaalp/platform-aarch64",
+  "homepage": "https://github.com/mkayaalp/platform-aarch64",
+  "license": "Apache-2.0",
+  "engines": {
+    "platformio": "~3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkayaalp/platform-aarch64.git"
+  },
+  "version": "0.0.0",
+  "packageRepositories": [
+    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+    "http://dl.platformio.org/packages/manifest.json",
+    {
+      "toolchain-gccaarch64noneelf": [
+        {
+          "url": "https://github.com/mkayaalp/toolchain-aarch64/releases/download/v0.1/toolchain-gccaarch64noneelf-darwin_x86_64-0.1.20171128.tar.xz",
+          "sha1": "8ed204102749411d120925141c31109cfb7625f1",
+          "version": "0.1.20171128",
+          "system": ["darwin_x86_64"]
+        }
+      ]
+    }
+  ],
+  "packages": {
+    "toolchain-gccaarch64noneelf": {
+      "type": "toolchain",
+      "version": "~0.1.20171128"
+    },
+    "tool-openocd": {
+      "type": "uploader",
+      "vesion": "~2.1000.0"
+    }
+  }
+}
